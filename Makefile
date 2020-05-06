@@ -15,7 +15,7 @@ test:
 	go test -race -cover ./...
 
 update:
-	go get all
+	go get ./...
 	go mod tidy
 	
 pb:
